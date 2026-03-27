@@ -7,6 +7,7 @@
 - [x] 数据保持、亮度指示与场景化文案  
 - [x] 场景检查（推荐 lux 区间对比与双滚轮选择）  
 - [x] 仓库内实机截图（`Photos/`）与 README 说明  
+- [x] 预编译 Debug APK（`releases/Lux-v1.0-debug.apk`）与 `v1.0.0` 标签；GitHub Release 页面可由网页或 `gh release create` 补全附件  
 
 ## 可选后续方向（非承诺）
 
