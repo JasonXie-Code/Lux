@@ -3,9 +3,9 @@
 <a id="nav"></a>
 ## 目录 · Quick navigation
 
-**中文：** [简介](#zh-intro) · [实机截图](#zh-screenshots) · [功能说明](#zh-features) · [适用场景](#zh-scenarios) · [从 Git 克隆后](#zh-clone) · [环境要求](#zh-env) · [构建与运行](#zh-run) · [命令行构建](#zh-cli) · [说明](#zh-notes) · [English ↓](#en)
+**中文：** [简介](#zh-intro) · [下载 APK](#zh-download) · [实机截图](#zh-screenshots) · [功能说明](#zh-features) · [适用场景](#zh-scenarios) · [从 Git 克隆后](#zh-clone) · [环境要求](#zh-env) · [构建与运行](#zh-run) · [命令行构建](#zh-cli) · [说明](#zh-notes) · [English ↓](#en)
 
-**English:** [Introduction](#en-intro) · [Screenshots](#en-screenshots) · [Features](#en-features) · [Use cases](#en-scenarios) · [Clone & setup](#en-clone) · [Requirements](#en-env) · [Build & run](#en-run) · [CLI](#en-cli) · [Notes](#en-notes) · [中文 ↑](#nav)
+**English:** [Introduction](#en-intro) · [Download APK](#en-download) · [Screenshots](#en-screenshots) · [Features](#en-features) · [Use cases](#en-scenarios) · [Clone & setup](#en-clone) · [Requirements](#en-env) · [Build & run](#en-run) · [CLI](#en-cli) · [Notes](#en-notes) · [中文 ↑](#nav)
 
 ---
 
@@ -16,6 +16,19 @@
 ### 简介
 
 通过手机光线传感器读取环境照度（**lux**），在屏幕中央大字显示当前数值，**保留两位小数**；显示刷新间隔可在 **200ms、500ms、1s、2s** 四档中切换（对应约 **5Hz / 2Hz / 1Hz / 0.5Hz**，默认 **500ms**），选择会持久保存。
+
+<a id="zh-download"></a>
+### 下载 APK
+
+| 项目 | 说明 |
+|------|------|
+| **构建** | **Debug**（`assembleDebug`），`versionName` **1.0** / `versionCode` **1** |
+| **仓库内文件** | [`releases/Lux-v1.0-debug.apk`](releases/Lux-v1.0-debug.apk) |
+| **直链（main 分支）** | <https://github.com/JasonXie-Code/Lux/raw/main/releases/Lux-v1.0-debug.apk> |
+| **GitHub Releases** | <https://github.com/JasonXie-Code/Lux/releases>（若已创建 Release，可优先从页面下载附件） |
+
+- 使用 Android **debug 签名**，适合体验与自用；侧载安装时若系统提示「未知来源」或「不安全」，请在系统设置中按需允许本次来源。  
+- 若需上架应用商店或对外正式分发，请使用 **release** 构建并配置您自己的 **发布签名**。  
 
 <a id="zh-screenshots"></a>
 ### 实机截图
@@ -110,6 +123,19 @@
 ### Introduction
 
 **Lux Light Meter** reads ambient illuminance (**lux**) from the phone’s ambient light sensor, shows the value **large in the center** with **two decimal places**, and lets you choose a UI refresh interval of **200ms, 500ms, 1s, or 2s** (roughly **5 / 2 / 1 / 0.5 Hz**; default **500ms**). The choice is **persisted**.
+
+<a id="en-download"></a>
+### Download APK
+
+| Item | Details |
+|------|---------|
+| **Build** | **Debug** (`assembleDebug`), `versionName` **1.0** / `versionCode` **1** |
+| **File in repo** | [`releases/Lux-v1.0-debug.apk`](releases/Lux-v1.0-debug.apk) |
+| **Direct link (main)** | <https://github.com/JasonXie-Code/Lux/raw/main/releases/Lux-v1.0-debug.apk> |
+| **GitHub Releases** | <https://github.com/JasonXie-Code/Lux/releases> (prefer the release asset when available) |
+
+- Signed with the Android **debug** keystore (fine for personal testing). Allow **Install unknown apps** / sideloading if the system prompts you.  
+- For Play Store or formal distribution, ship a **release** build with your **own signing key**.  
 
 <a id="en-screenshots"></a>
 ### Screenshots
