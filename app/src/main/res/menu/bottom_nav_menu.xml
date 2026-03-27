@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_lux_meter"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="@string/tab_lux_meter" />
+    <item
+        android:id="@+id/nav_scene_check"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="@string/tab_scene_check" />
+</menu>

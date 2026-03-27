@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="app_bg">#F5F7FB</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="text_primary">#1D2939</color>
+    <color name="text_secondary">#667085</color>
+    <color name="chip_bg">#EEF2FF</color>
+    <color name="chip_text">#4338CA</color>
+    <color name="panel_bg">#F9FAFB</color>
+    <color name="panel_text">#344054</color>
+    <color name="indicator_color">#6366F1</color>
+    <color name="indicator_track">#E5E7EB</color>
+    <color name="nav_selected">#4338CA</color>
+    <color name="nav_unselected">#98A2B3</color>
+    <color name="nav_indicator_bg">#E0E7FF</color>
+    <color name="scene_ok_bg">#ECFDF3</color>
+    <color name="scene_ok_text">#027A48</color>
+    <color name="scene_low_bg">#EFF6FF</color>
+    <color name="scene_low_text">#1D4ED8</color>
+    <color name="scene_high_bg">#FEF9C3</color>
+    <color name="scene_high_text">#A16207</color>
+</resources>

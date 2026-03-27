@@ -1,0 +1,11 @@
+# 复制本文件为 local.properties，并设置 Android SDK 路径。
+# Android Studio 首次打开项目时通常会为您生成 local.properties。
+
+## macOS / Linux 示例
+# sdk.dir=/Users/您的用户名/Library/Android/sdk
+
+## Windows 示例（反斜杠需写成 \\ 或 /）
+# sdk.dir=C\:\\Users\\您的用户名\\AppData\\Local\\Android\\Sdk
+# sdk.dir=C:/Users/您的用户名/AppData/Local/Android/Sdk
+
+sdk.dir=
